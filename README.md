@@ -1,4 +1,4 @@
-# Ruby App
+# Smart Penstion Code Test
 
 ## Instructions:
 
@@ -39,3 +39,18 @@ Once it's running, logs_report.rb calls the methods needed to achieve the challe
 Finally the results are given to the user as a interated list of strings.
 
 This challenge has been built using Test-Driven Development (TDD) with RSpec.
+
+## Running script
+$ cd ~/path/to/ruby_app
+
+$ bundle install
+
+$ ruby logs_report.rb webserver.log
+
+## Running test
+$ cd ~/path/to/ruby_app
+
+$ bundle install
+
+$ rspec spec/lib/log_analyzer_spec.rb
+
